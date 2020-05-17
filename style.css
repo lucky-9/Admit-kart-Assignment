@@ -1,0 +1,49 @@
+.contents {
+  margin: 2.5rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.screen {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.company-name {
+  color: skyblue;
+  font-size: 2.5rem;
+}
+
+.kart {
+  color: grey;
+  font-size: 2.5rem;
+}
+
+.text {
+  font-size: 1rem;
+}
+
+.welcome {
+  font-size: 1.5rem;
+}
+
+#phone-num-input {
+  width: 250px;
+  height: 1.5rem;
+  border: 2px solid yellow;
+  padding: 0.5rem;
+  font-size: 1rem;
+}
+
+.OTP-input {
+  display: flex;
+}
+
+.input-style {
+  width: 2rem;
+  height: 2rem;
+  margin: 2px;
+  font-size: 1.8rem;
+  text-align: center;
+}

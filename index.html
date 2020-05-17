@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="screen">
+      <div class="contents">
+        <p class="company-name">Admit <span class="kart">Kart</span></p>
+        <div>
+          <p class="welcome">Welcome Back</p>
+          <p class="text">Please sign in to your account</p>
+        </div>
+        <input
+          onchange="getInputNumber()"
+          id="phone-num-input"
+          type="tel"
+          placeholder="Enter your mobile number"
+          required
+        />
+        <button class="text" onclick="sendOTP()">submit</button>
+      </div>
+      <div class="contents">
+        <p class="text">Please Verify your Mobile Number</p>
+        <p class="text">An OTP is sent to</p>
+        <div class="OTP-input">
+          <input
+            class="input-style"
+            id="first-digit"
+            maxlength="1"
+            type="tel"
+            min="0"
+            max="9"
+            required
+          />
+          <input
+            class="input-style"
+            id="second-digit"
+            maxlength="1"
+            type="tel"
+            min="0"
+            max="9"
+            required
+          />
+          <input
+            class="input-style"
+            id="third-digit"
+            maxlength="1"
+            type="tel"
+            min="0"
+            max="9"
+            required
+          />
+          <input
+            class="input-style"
+            id="fourth-digit"
+            maxlength="1"
+            type="tel"
+            min="0"
+            max="9"
+            required
+          />
+        </div>
+        <button class="text" type="submit" onclick="verifyOTP()">
+          SUBMIT OTP
+        </button>
+      </div>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
